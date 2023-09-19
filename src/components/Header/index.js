@@ -21,7 +21,7 @@ const Header = () => {
           <li>
             <Link
               href={router.pathname === "/" ? "/Banks" : "/"}
-              className="font-poppins text-lg pr-4 md:text-base sm:text-base px-2 border-none hover:text-red hover:bg-transparent"
+              className="text-xl text-brown font-medium pr-4 md:text-xl sm:text-xl px-2 border-none hover:text-light hover:bg-transparent"
             >
               {router.pathname === "/" ? "Banks" : "Home"}
             </Link>
