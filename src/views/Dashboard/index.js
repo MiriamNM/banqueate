@@ -14,9 +14,12 @@ const Dashboard = () => {
           Conocenos
         </h2>
         <p className="text-dark font-normal text-3xl text-justify md:text-3xl sm:text-3xl md:pb-3 sm:pb-3">
-          Estamos afiliados a <br />
-          muchos bancos y con la <br />
-          app puedes tener todos <br />
+          Estamos afiliados a
+          <br />
+          muchos bancos y con la
+          <br />
+          app puedes tener todos
+          <br />
           en uno.
         </p>
         <Link

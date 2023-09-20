@@ -1,8 +1,8 @@
 import React from "react";
 import { useRouter } from "next/router";
-import logo from "../../assets/Logo.png";
 import Link from "next/link";
 import Image from "next/image";
+import logo from "../../assets/Logo.png";
 
 const Header = ({ onChange }) => {
   const router = useRouter();
@@ -19,7 +19,7 @@ const Header = ({ onChange }) => {
               <input
                 type="search"
                 className="text-center rounded border-mintTwo w-80 h-9 md:w-60 sm:w-60"
-                placeholder="Busca el producto"
+                placeholder="Nombre de Banco"
                 onChange={(e) => onChange(e.target.value)}
               />
             </li>
