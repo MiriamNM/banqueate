@@ -1,9 +1,11 @@
 module.exports = {
+  plugins: ["jest"],
   env: {
     browser: true,
     amd: true,
     node: true,
     es6: true,
+    jest: true,
   },
   extends: [
     "eslint:recommended",
