@@ -29,7 +29,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_dist_build_webpack_loaders_next_route_loader_helpers__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(7182);
 /* harmony import */ var next_dist_pages_document__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(1492);
 /* harmony import */ var next_dist_pages_document__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_dist_pages_document__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var private_next_pages_app_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(335);
+/* harmony import */ var private_next_pages_app_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(4382);
 /* harmony import */ var next_dist_pages_error__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(6698);
 /* harmony import */ var next_dist_pages_error__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(next_dist_pages_error__WEBPACK_IMPORTED_MODULE_5__);
 // @ts-ignore this need to be imported from next/dist to be external
@@ -283,7 +283,7 @@ module.exports = require("react-dom");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [492,774,698,335], () => (__webpack_exec__(7909)));
+var __webpack_exports__ = __webpack_require__.X(0, [492,774,698,382], () => (__webpack_exec__(7909)));
 module.exports = __webpack_exports__;
 
 })();
