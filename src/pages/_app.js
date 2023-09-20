@@ -1,3 +1,4 @@
+import React from "react";
 import "@styles/tailwind.css";
 import "@layout/Main/index";
 import Main from "@layout/Main/index";
