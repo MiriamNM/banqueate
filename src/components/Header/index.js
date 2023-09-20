@@ -8,7 +8,7 @@ const Header = ({ onChange }) => {
   const router = useRouter();
 
   return (
-    <header className="Container border-b border-light mx-auto flex items-center p-6 justify-between lg:px-8 bg-white">
+    <header className="Container border-b border-silver mx-auto flex items-center p-6 justify-between lg:px-8 bg-white">
       <div className="flex justify-start">
         <Image src={logo} alt="logo" width={300} height={300} />
       </div>
@@ -32,18 +32,6 @@ const Header = ({ onChange }) => {
               {router.pathname === "/" ? "Bancos afiliados" : "Home"}
             </Link>
           </li>
-          {router.pathname === "/" && (
-            <>
-              <li className="md:mt-3 sm:mt-3 pb-2">
-                <button className="text-green rounded hover:text-white hover:bg-green font-medium pr-4 md:text-xl sm:text-xl px-2">
-                  Login
-                </button>
-                <button className="text-green rounded hover:text-white hover:bg-green font-medium pr-4 md:text-xl sm:text-xl px-2">
-                  Sing up
-                </button>
-              </li>
-            </>
-          )}
         </ul>
       </nav>
     </header>
