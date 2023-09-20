@@ -4,10 +4,10 @@
 module.exports = {
   theme: {
     colors: {
-      green: "#4CA349",
-      light: "#EBECF3",
-      dark: "#081421",
-      brown: "#3B3D3C",
+      white: "#FFFFFF",
+      green: "#4CAF4F",
+      silver: "#7D7987",
+      dark: "#4D4D4D",
       red: "#BB3A69",
     },
   },

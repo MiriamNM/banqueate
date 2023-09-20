@@ -3,7 +3,7 @@ import DashboardBankContainer from "views/DashboardBank/container";
 
 export default function Banks() {
   return (
-    <div className="bg-light">
+    <div className="bg-white w-full">
       <>
         <DashboardBankContainer />
       </>
