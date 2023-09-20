@@ -1,7 +1,7 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
 import "@testing-library/jest-dom";
-import Dashboard from "@components/Dashboard";
+import Dashboard from "views/Dashboard";
 
 describe("Dashboard", () => {
   it("renders the dashboard content correctly", () => {

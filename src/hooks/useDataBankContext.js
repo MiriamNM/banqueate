@@ -7,10 +7,14 @@ export const useBanksContext = () => {
 };
 
 export const BanksProvider = ({ children }) => {
-  const [dataBanks, setDataBanks] = useState([]);
+  const [state, setState] = useState({
+    dataBanks: [],
+    currentValue: "",
+    dataBankFilter: [],
+  });
 
   return (
-    <BanksContext.Provider value={{ dataBanks, setDataBanks }}>
+    <BanksContext.Provider value={{ state, setState }}>
       {children}
     </BanksContext.Provider>
   );

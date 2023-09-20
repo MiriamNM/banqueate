@@ -1,13 +1,12 @@
 import React from "react";
-import { BanksProvider } from "@hooks/useDataBankContext";
-import Dashboard from "@components/Dashboard";
+import Dashboard from "views/Dashboard";
 
 export default function Home() {
   return (
     <div className="bg-light">
-      <BanksProvider>
+      <>
         <Dashboard />
-      </BanksProvider>
+      </>
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import "@components/Header/index";
-import Header from "@components/Header/index";
+import Header from "@components/Header/HeaderContainer";
 
 const Main = ({ children }) => {
   return (
