@@ -3,7 +3,7 @@ import Dashboard from "views/Dashboard";
 
 export default function Home() {
   return (
-    <div className="bg-light">
+    <div className="bg-white w-full">
       <>
         <Dashboard />
       </>
