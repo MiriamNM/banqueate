@@ -24,9 +24,11 @@ Todo el diseño del proyecto se realizo en [Figma](https://www.figma.com/file/Dc
 
 ## 3. Documentación Funcional:
 ### Primera Vista:
+![Dashboard](https://raw.githubusercontent.com/MiriamNM/banqueate/main/src/assets/dashboard.png)
 Muestra el logo de la aplicación, da un pequeño texto introductorio para atraer a clientes y tiene 2 botones que te llevan a ver los bancos a los que esta afiliada la app. 
 
 ### Segunda vista:
+![BanksDashboard](https://raw.githubusercontent.com/MiriamNM/banqueate/main/src/assets/bankDashboard.png)
 Te muestra los bancos afiliados y puedes buscarlos por el nombre del banco. Tiene un botón volver al inicio.
 
 ## 4. Instalación:
