@@ -1,34 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Banqueate 💳
 
-## Getting Started
+## Welcome!
 
-First, run the development server:
+## Índice
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+* [1. Banqueate](#1-Banqueate)
+* [2. Documentación Técnica del Frontend](#2-Documentación-Técnica-del-Frontend)
+* [3. Documentación Funcional](#3-Documentación-Funcional)
+* [4. Instalación](#4-Instalación)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 1. Banqueate
+Aplicación que busca mostrar los bancos con los que esta afiliada Banqueate y atraes nuevos clientes. 
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## 2. Documentación Técnica del Frontend
+Todo el diseño del proyecto se realizo en [Figma](https://www.figma.com/file/DcUxNc5jlxPula4E4MybJH/Banqueate?type=design&node-id=0%3A1&mode=design&t=Qz1kpcgdEyZmVUFt-1). 
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### Stack
+- Next.js
+- React
+- Tailwind CSS
+- Tailwind UI
 
-## Learn More
+## 3. Documentación Funcional:
+### Primera Vista:
+Muestra el logo de la aplicación, da un pequeño texto introductorio para atraer a clientes y tiene 2 botones que te llevan a ver los bancos a los que esta afiliada la app. 
 
-To learn more about Next.js, take a look at the following resources:
+### Segunda vista:
+Te muestra los bancos afiliados y puedes buscarlos por el nombre del banco. Tiene un botón volver al inicio.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 4. Instalación:
+Necesitas un editor como Visual Studio Code.
+1.  En una terminal en la carpeta principal de la aplicación pon:
+    - git init
+    - git clone https://github.com/MiriamNM/banqueate.git 
+    - npm i
+    - npm run build
+    - npm run dev
+    - npm start
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+** Siguientes pasos
+- Almacenar la aplicación en un contenedor de Docker. 
