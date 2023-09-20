@@ -7,7 +7,9 @@
       "@assets/*": ["assets/*"],
       "@layout/*": ["layout/*"],
       "@hooks/*": ["hooks/*"],
-      "@services/*": ["services/*"]
+      "@services/*": ["services/*"],
+      "@views/*": ["views/*"],
+      "@pages/*": ["pages/*"]
     }
   }
 }
