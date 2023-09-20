@@ -1,6 +1,6 @@
 import React from "react";
-import Image from "next/image";
 import { useBanksContext } from "@hooks/useDataBankContext";
+import BankCards from "@components/BankCards";
 
 const DashboardBank = () => {
   const {
@@ -15,63 +15,11 @@ const DashboardBank = () => {
         </h2>
 
         <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-5 xl:gap-x-8">
-          {dataBankFilter.length <= 0
-            ? dataBanks.map(({ bankName, description, age, url }) => (
-                <div key={bankName} className="group relative">
-                  <div className="flex justify-center items-center aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md lg:aspect-none group-hover:opacity-75 lg:h-80">
-                    <Image
-                      src={url}
-                      alt={bankName}
-                      layout="responsive"
-                      width={100}
-                      height={100}
-                    />
-                  </div>
-                  <div className="mt-4 flex justify-between">
-                    <div>
-                      <h3 className="font-semibold text-lg">
-                        <span
-                          aria-hidden="true"
-                          className="absolute inset-0 pb-1 font-semibold"
-                        />
-                        {bankName}
-                      </h3>
-                      <p className="mt-1 text-sm pb-1">{description}</p>
-                      <p className="text-sm font-medium text-gray-900">
-                        {age} años
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              ))
-            : dataBankFilter.map(({ bankName, description, age, url }) => (
-                <div key={bankName} className="group relative">
-                  <div className="flex justify-center items-center aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md lg:aspect-none group-hover:opacity-75 lg:h-80">
-                    <Image
-                      src={url}
-                      alt={bankName}
-                      layout="responsive"
-                      width={100}
-                      height={100}
-                    />
-                  </div>
-                  <div className="mt-4 flex justify-between">
-                    <div>
-                      <h3 className="font-semibold text-lg">
-                        <span
-                          aria-hidden="true"
-                          className="absolute inset-0 pb-1 font-semibold"
-                        />
-                        {bankName}
-                      </h3>
-                      <p className="mt-1 text-sm pb-1">{description}</p>
-                      <p className="text-sm font-medium text-gray-900">
-                        {age} años
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              ))}
+          {dataBankFilter.length <= 0 ? (
+            <BankCards state={dataBanks} />
+          ) : (
+            <BankCards state={dataBankFilter} />
+          )}
         </div>
       </div>
     </div>

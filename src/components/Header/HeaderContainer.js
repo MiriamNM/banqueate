@@ -10,8 +10,9 @@ const HeaderContainer = () => {
 
   const onChange = (e) => {
     setState((prevState) => ({ ...prevState, currentValue: e }));
-    const filterWithSearch =
-      dataBanks.filter(({ bankName }) => bankName === currentValue) || [];
+    const filterWithSearch = dataBanks.filter(
+      ({ bankName }) => bankName === currentValue,
+    );
     setState((prevState) => ({
       ...prevState,
       dataBankFilter: filterWithSearch,
