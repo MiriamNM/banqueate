@@ -1,10 +1,10 @@
 version: "3.8"
 
 services:
-  banqueate:
+  node_backend:
     container_name: banqueate
+    image: banqueate:0.0.1
     build:
       context: .
-      dockerfile: Dockerfile
     ports:
       - "3000:3000"
