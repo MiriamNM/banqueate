@@ -6,10 +6,10 @@ import phoneImg from "@assets/phoneImg.png";
 const Dashboard = () => {
   return (
     <main className="w-full max-h-screen flex flex-wrap items-center">
-      <div>
+      <div className="ml-0 lg:ml-0">
         <Image src={phoneImg} alt="phoneImg" width={550} height={550} />
       </div>
-      <div className="flex flex-col text-justify md:pt-4 sm:pt-4">
+      <div className="flex flex-col text-justify md:pt-4 sm:pt-4 lg:px-1 md:px-4 sm:px-4 mx-4">
         <h2 className="text-dark font-medium text-4xl sm:text-5xl md:text-7xl pb-5">
           Todos los bancos,
           <br />
@@ -23,7 +23,7 @@ const Dashboard = () => {
         </p>
         <Link
           href="/Banks"
-          className="text-green bg-white font-medium text-base sm:text-lg md:text-base rounded mt-4 md:w-40 md:py-3 sm:w-40 sm:py-3 hover:text-red"
+          className="text-green bg-white font-medium text-base sm:text-lg md:text-base rounded mt-4 md:w-40 md:pb-8 sm:w-40 sm:pb-8 lg:pb-3 hover:text-red"
         >
           〉Ver bancos afilidos
         </Link>
