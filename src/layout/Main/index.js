@@ -5,7 +5,7 @@ import Footer from "@components/Footer";
 
 const Main = ({ children }) => {
   return (
-    <div className="min-h-screen bg-white border-t border-silver">
+    <div className="min-h-screen bg-white border-t border-silver border-opacity-20">
       <Header />
       <main>
         <div className="pt-10 max-w-7xl mx-auto sm:px-6 lg:px-8">

@@ -8,7 +8,7 @@ const Header = ({ onChange }) => {
   const router = useRouter();
 
   return (
-    <header className="Container border-b border-silver mx-auto flex flex-col lg:flex-row items-center p-6 justify-between lg:px-8 bg-white">
+    <header className="Container border-b border-silver border-opacity-20 mx-auto flex flex-col lg:flex-row items-center p-6 justify-between lg:px-8 bg-white">
       <div className="flex justify-start">
         <Image src={logo} alt="logo" width={300} height={300} />
       </div>
