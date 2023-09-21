@@ -5,33 +5,33 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/MRk8ac0n30orDXNNki6VX/_buildManifest.js",
-    "static/MRk8ac0n30orDXNNki6VX/_ssgManifest.js"
+    "static/KQ9MScy-H0fH8juMkQQ9E/_buildManifest.js",
+    "static/KQ9MScy-H0fH8juMkQQ9E/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
     "/": [
-      "static/chunks/webpack-a639be4648bcf60b.js",
+      "static/chunks/webpack-9ee6a07f4cc7b40f.js",
       "static/chunks/framework-a9a81ea58490f63f.js",
       "static/chunks/main-c0af16862c7d30fa.js",
-      "static/chunks/pages/index-d8cdf176c2084165.js"
+      "static/chunks/pages/index-63ace0cd73719a15.js"
     ],
     "/Banks": [
-      "static/chunks/webpack-a639be4648bcf60b.js",
+      "static/chunks/webpack-9ee6a07f4cc7b40f.js",
       "static/chunks/framework-a9a81ea58490f63f.js",
       "static/chunks/main-c0af16862c7d30fa.js",
       "static/chunks/154-eb4dcc4aa0bee791.js",
-      "static/chunks/pages/Banks-cda56f86ae163ee6.js"
+      "static/chunks/pages/Banks-7832563ea34410ba.js"
     ],
     "/_app": [
-      "static/chunks/webpack-a639be4648bcf60b.js",
+      "static/chunks/webpack-9ee6a07f4cc7b40f.js",
       "static/chunks/framework-a9a81ea58490f63f.js",
       "static/chunks/main-c0af16862c7d30fa.js",
-      "static/css/fc332c07c8fe2d66.css",
-      "static/chunks/pages/_app-e13a05d7e120c1a3.js"
+      "static/css/c99ef7cdc22ceff7.css",
+      "static/chunks/pages/_app-21bf07dd1dcf6d39.js"
     ],
     "/_error": [
-      "static/chunks/webpack-a639be4648bcf60b.js",
+      "static/chunks/webpack-9ee6a07f4cc7b40f.js",
       "static/chunks/framework-a9a81ea58490f63f.js",
       "static/chunks/main-c0af16862c7d30fa.js",
       "static/chunks/pages/_error-825eec36a09e8992.js"

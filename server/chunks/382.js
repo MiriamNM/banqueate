@@ -89,7 +89,7 @@ var Header = function Header(_ref) {
   var _onChange = _ref.onChange;
   var router = (0,router_.useRouter)();
   return /*#__PURE__*/external_react_default().createElement("header", {
-    className: "Container border-b border-silver mx-auto flex items-center p-6 justify-between lg:px-8 bg-white"
+    className: "Container border-b border-silver mx-auto flex flex-col lg:flex-row items-center p-6 justify-between lg:px-8 bg-white"
   }, /*#__PURE__*/external_react_default().createElement("div", {
     className: "flex justify-start"
   }, /*#__PURE__*/external_react_default().createElement((image_default()), {
@@ -97,8 +97,10 @@ var Header = function Header(_ref) {
     alt: "logo",
     width: 300,
     height: 300
-  })), /*#__PURE__*/external_react_default().createElement("nav", null, /*#__PURE__*/external_react_default().createElement("ul", {
-    className: "flex flex-wrap justify-end items-center md:pt-4 sm:pt-4"
+  })), /*#__PURE__*/external_react_default().createElement("nav", {
+    className: "mt-6 lg:mt-0"
+  }, /*#__PURE__*/external_react_default().createElement("ul", {
+    className: "flex flex-wrap lg:flex-nowrap justify-end items-center md:pt-4 sm:pt-4"
   }, router.pathname === "/Banks" && /*#__PURE__*/external_react_default().createElement("li", {
     className: "md:mt-3 sm:mt-3 pb-2"
   }, /*#__PURE__*/external_react_default().createElement("input", {
@@ -169,7 +171,7 @@ var HeaderContainer = function HeaderContainer() {
 
 var Footer = function Footer() {
   return /*#__PURE__*/external_react_default().createElement("footer", {
-    className: "bg-dark flex justify-center items-center text-green text-lg p-6 mt-auto fixed bottom-0 w-full"
+    className: "lg:fixed bg-dark flex justify-center items-center text-green text-lg p-6 mt-auto bottom-0 w-full"
   }, /*#__PURE__*/external_react_default().createElement((image_default()), {
     alt: "LogoFooter",
     src: LogoF,
@@ -189,9 +191,9 @@ var Footer = function Footer() {
 var Main = function Main(_ref) {
   var children = _ref.children;
   return /*#__PURE__*/external_react_default().createElement("div", {
-    className: "min-h-screen bg-white border-t border-silver w-full"
+    className: "min-h-screen bg-white border-t border-silver"
   }, /*#__PURE__*/external_react_default().createElement(Header_HeaderContainer, null), /*#__PURE__*/external_react_default().createElement("main", null, /*#__PURE__*/external_react_default().createElement("div", {
-    className: "max-w-7xl mx-auto w-full sm:px-6 lg:px-8"
+    className: "pt-10 max-w-7xl mx-auto sm:px-6 lg:px-8"
   }, children)), /*#__PURE__*/external_react_default().createElement(components_Footer, null));
 };
 
