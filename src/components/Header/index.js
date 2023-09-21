@@ -8,12 +8,12 @@ const Header = ({ onChange }) => {
   const router = useRouter();
 
   return (
-    <header className="Container border-b border-silver mx-auto flex items-center p-6 justify-between lg:px-8 bg-white">
+    <header className="Container border-b border-silver mx-auto flex flex-col lg:flex-row items-center p-6 justify-between lg:px-8 bg-white">
       <div className="flex justify-start">
         <Image src={logo} alt="logo" width={300} height={300} />
       </div>
-      <nav>
-        <ul className="flex flex-wrap justify-end items-center md:pt-4 sm:pt-4">
+      <nav className="mt-6 lg:mt-0">
+        <ul className="flex flex-wrap lg:flex-nowrap justify-end items-center md:pt-4 sm:pt-4">
           {router.pathname === "/Banks" && (
             <li className="md:mt-3 sm:mt-3 pb-2">
               <input

@@ -9,7 +9,7 @@ const BankCards = ({ state }) => {
           key={bankName}
           className="group relative bg-silver bg-opacity-5 p-5"
         >
-          <div className="flex justify-center items-center aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md lg:aspect-none group-hover:opacity-75 lg:h-20">
+          <div className="flex justify-center items-center aspect-h-1 aspect-w-1 w-full -hidden rounded-md lg:aspect-none group-hover:opacity-75 lg:h-20">
             <Image
               src={url}
               alt={bankName}
