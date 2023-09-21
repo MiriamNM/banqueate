@@ -1,13 +1,17 @@
-FROM node:14
+FROM node:16-alpine
+
+RUN mkdir -p /app
+
+WORKDIR /app
+
+COPY package.json /app
+
+RUN yarn install
+
+COPY . /app
+
+RUN yarn build
 
 EXPOSE 3000
 
-WORKDIR /src
-
-COPY package*.json ./
-
-RUN npm install
-
-COPY . .
-
-CMD ["npm", "run", "dev"]
+CMD [ "yarn", "start" ]
